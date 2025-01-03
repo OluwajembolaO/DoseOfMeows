@@ -2,6 +2,11 @@ import React from 'react';
 import '../Bulma.css'
 import '../Fonts.css'
 import './Navigation.css'
+
+
+const instagram = () => {
+window.open("https://www.instagram.com/daily_dose_of_meows/?hl=en","_blank");
+};
 const Navigation = () => {
     return(
         <nav className="navbar" role="navigation" aria-label="main navigation" style={{ backgroundColor: '#89669D', height : '75px'}}>
@@ -28,7 +33,7 @@ const Navigation = () => {
                     </a>
 
                     <a className="navbar-item navigation-link">
-                        Documentation
+                        Sign In
                     </a>
 
                     <div className="navbar-item has-dropdown is-hoverable">
@@ -40,9 +45,7 @@ const Navigation = () => {
                             <a className="navbar-item">
                                 About
                             </a>
-                            <a className="navbar-item is-selected">
-                                Jobs
-                            </a>
+                        
                             <a className="navbar-item">
                                 Contact
                             </a>
@@ -58,8 +61,8 @@ const Navigation = () => {
                     <div className="navbar-item">
                         <div className="buttons">
 
-                            <a className="button is-light">
-                                Log in
+                            <a className="button is-light custom-button" onClick={instagram}>
+                               Back to Instagram!
                             </a>
                         </div>
                     </div>

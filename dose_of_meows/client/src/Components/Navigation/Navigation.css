@@ -3,3 +3,14 @@
     font-family: 'Henny Penny';
     font-size: 1.5em;
 }
+
+.custom-button {
+    background-color: #f2ddfe;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    border-radius: 100px;
+  }
+  
+  .custom-button:hover {
+    background-color: #2876c9; 
+  }
