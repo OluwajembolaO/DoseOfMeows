@@ -1,0 +1,24 @@
+.leftSide {
+    background-color: #E2B4FC;
+    width: 49%;
+    height: 100vh;
+}
+.myLogo img {
+    margin-top: 30px;
+    width: 80px;
+    height: 70px;
+}
+.myLogo h1 {
+    
+    font-family: Henny Penny;
+    color:black;
+    vertical-align: baseline;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-bottom: -15px;
+}
+.myLogo {
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+}
