@@ -1,6 +1,15 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+
 body { 
 
 background-color: #f2ddfe;
+
+
 
 }
 
@@ -41,12 +50,32 @@ background-color: #f2ddfe;
     align-items: center;
 }
 
+.CatLayingDown { 
+  position: relative;
+  width: 30%;
+  margin-top: -55%;
+  margin-right: -30%;
+  z-index: 200;
+}
+
+
+
+
+.CatLookingUp {
+  position:relative;
+  width: 40%;
+  position: relative;
+   transform: translatex(-140%);
+  margin-top: 18%;           /* Add additional spacing */
+}
+
+
 
 .circle {
     width: 75%;               
     height: 75%;              
     border: 5px solid black;    
-    border-radius: 50%;        
+    border-radius: 60%;        
     background-color: #f2ddfe;   
     margin-top: 3%;
     margin-left: 10%;          
