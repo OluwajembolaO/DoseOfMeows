@@ -50,9 +50,16 @@ background-color: #f2ddfe;
     background-color: #f2ddfe;   
     margin-top: 3%;
     margin-left: 10%;          
-    display: block;          
+    display: block;  
+    text-align: center;        
   }
-
+  
+  .cuteCat {
+    width: 100%;                
+    height: 100%;              
+    border-radius: 50%;         
+    object-fit: cover;          
+  }
 
 .login-container {
     display: flex;
@@ -136,9 +143,6 @@ background-color: #f2ddfe;
   .login-form button:hover {
     background-color: #2876c9;
   }
-  
-
-
 
   /* adjusting for mobile devices */ 
   /* adjust later */

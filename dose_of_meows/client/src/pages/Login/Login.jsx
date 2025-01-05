@@ -22,7 +22,11 @@ const Login = () => {
             <h1>Dose of Meows</h1>
           </div>
           
-          <div className="circle"></div> 
+          <div className="circle">
+            <img className = "cuteCat" src = "/images/CuteAnimeCat.png"
+                 alt="Cute Anime Cat"
+            />
+        </div> 
         </div>
 
         <div className="rightSide">
@@ -51,7 +55,7 @@ const Login = () => {
                 required
               />
 
-              <button type="submit">Sign in</button>
+              <button className="signInButton" type="submit">Sign in</button>
             </form>
           </div>
         </div>
