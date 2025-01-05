@@ -28,15 +28,20 @@ const Login = () => {
             />
         </div> 
         </div>
-
+         
         <div className="rightSide">
+        <img className="CatLayingDown" alt = "CatLayingDown" src="/images/CatLayingDown.png"/> 
+
           <div className="form-container">
+
+            
             <h2 className= "Sign_inTitle">Sign In</h2>
             
-            
             <form className="login-form" onSubmit={handleSubmit}>
+              
               <label className="formheaders" htmlFor="username">Username</label>
               <input
+                placeholder = "Enter Username"
                 type="text"
                 id="username"
                 name="username"
@@ -47,6 +52,7 @@ const Login = () => {
 
               <label className= "formheaders" htmlFor="password">Password</label>
               <input
+                placeholder= "Enter Password"
                 type="password"
                 id="password"
                 name="password"
@@ -57,7 +63,10 @@ const Login = () => {
 
               <button className="signInButton" type="submit">Sign in</button>
             </form>
+            <img className = "CatLookingUp" alt = "CatLookingUp" src="/images/CatLookUp.png"/> 
+
           </div>
+          
         </div>
       </div>
     </div>
