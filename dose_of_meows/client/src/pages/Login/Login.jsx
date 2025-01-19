@@ -1,7 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
+import GoogleButton from '../../Components/GoogleButton/GoogleButton';
 import Navigation from '../../Components/Navigation/Navigation';
+
 import '../../Components/Bulma.css';
 import './Login.css';
+import { UserContext } from '../../contexts/userContext';
 
 const Login = () => {
   const [username, setUsername] = useState('');   /* ignore all of these */ 
@@ -48,6 +51,7 @@ const Login = () => {
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
                 required
+                autoComplete="username"
               />
 
               <label className= "formheaders" htmlFor="password">Password</label>
@@ -59,12 +63,14 @@ const Login = () => {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required
+                autoComplete="current-password"
               />
 
               <button className="signInButton" type="submit">Sign in</button>
             </form>
+            <br/>
+            <GoogleButton />
             <img className = "CatLookingUp" alt = "CatLookingUp" src="/images/CatLookUp.png"/> 
-
           </div>
           
         </div>
