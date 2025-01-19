@@ -1,0 +1,13 @@
+
+
+
+.profileinformation {
+  width: 50%;
+  height: 30%;
+  background-color: aliceblue;
+  margin-left: 24%;
+  margin-top: 5%;
+  border: 3px solid black ;
+  border-radius: 50px;
+}
+

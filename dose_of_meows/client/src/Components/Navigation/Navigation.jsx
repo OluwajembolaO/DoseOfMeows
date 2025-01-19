@@ -11,7 +11,7 @@ const Navigation = () => {
     return(
         <nav className="navbar" role="navigation" aria-label="main navigation" style={{ backgroundColor: '#89669D', height : '75px'}}>
             <div className="navbar-brand">
-                <a className="navbar-item" href="https://bulma.io">
+                <a className="navbar-item" href="https://www.instagram.com/daily_dose_of_meows/?hl=en">
                     <img
                     alt='DOM Logo'
                     src = "/images/DOMLogo.png"/>
