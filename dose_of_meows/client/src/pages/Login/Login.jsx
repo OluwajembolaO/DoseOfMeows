@@ -68,8 +68,8 @@ const Login = () => {
 
               <button className="signInButton" type="submit">Sign in</button>
             </form>
-            <br/>
-            <GoogleButton />
+             <br/>
+              <GoogleButton />
             <img className = "CatLookingUp" alt = "CatLookingUp" src="/images/CatLookUp.png"/> 
           </div>
           
