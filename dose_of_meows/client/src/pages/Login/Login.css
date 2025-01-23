@@ -66,7 +66,7 @@ background-color: #f2ddfe;
   width: 40%;
   position: relative;
    transform: translatex(-140%);
-  margin-top: 18%;           /* Add additional spacing */
+  margin-top: 9%;           /* Add additional spacing */
 }
 
 
@@ -130,7 +130,7 @@ background-color: #f2ddfe;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    height: 450px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -153,11 +153,11 @@ background-color: #f2ddfe;
   }
   
   .login-form input {
-    padding: 10px;
+    padding: 2px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 100px;
-    font-size: 16px;
+    font-size: 17px;
   }
   
   .login-form button {
@@ -172,6 +172,13 @@ background-color: #f2ddfe;
   .login-form button:hover {
     background-color: #2876c9;
   }
+  
+  .google-button-container .gsi-material-button {
+    background-color: #cacaca; 
+    border-radius: 100px black;
+    color: #fffcfc;
+    margin-left: 24%;
+}
 
   /* adjusting for mobile devices */ 
   /* adjust later */
@@ -185,36 +192,7 @@ background-color: #f2ddfe;
         width: 49%;
         height: 100vh;
     }
-    .myLogo img {
-        margin-top: 30px;
-        width: 80px;
-        height: 70px;
-    }
-    .myLogo h1 {
-        
-        font-family: Henny Penny;
-        color:black;
-        vertical-align: baseline;
-        font-size: 25px;
-        margin-left: 0%;
-        margin-bottom: -15px;
-    }
-    .myLogo {
-        margin-left: 0%;
-        display: flex;
-        align-items: center;
-    }
-
-    .circle {
-        width: 100%;               
-        height: 30%;              
-        border: 5px solid black;    
-        border-radius: 50%;        
-        background-color: #f2ddfe;   
-        margin-top: 3%;
-        margin-left: 0px;          
-        display: block;          
-      }
+    
 
 
 

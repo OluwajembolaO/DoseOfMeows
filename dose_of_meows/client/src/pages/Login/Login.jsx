@@ -65,11 +65,13 @@ const Login = () => {
                 required
                 autoComplete="current-password"
               />
-
-              <button className="signInButton" type="submit">Sign in</button>
+          <button className="signInButton" type="submit">Sign in</button>
+          <br />
+          <div className = 'google-button-container'> 
+          <GoogleButton/>
+          </div>
             </form>
-             <br/>
-              <GoogleButton />
+             
             <img className = "CatLookingUp" alt = "CatLookingUp" src="/images/CatLookUp.png"/> 
           </div>
           
