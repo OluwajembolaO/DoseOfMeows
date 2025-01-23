@@ -181,6 +181,12 @@
 
 
 }
-
-
+  
+  .modal-content {
+    max-width: 100%;
+    margin: auto;
+    background: rgb(137,102,157);
+    padding: 1%;
+    border-radius: 5px;
+  }
 
