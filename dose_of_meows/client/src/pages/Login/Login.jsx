@@ -1,12 +1,13 @@
 import React, { useState, useContext } from 'react';
 import GoogleButton from '../../Components/GoogleButton/GoogleButton';
 import Navigation from '../../Components/Navigation/Navigation';
-
-import '../../Components/Bulma.css';
+import '../../Components/Styles/Fonts.css';
+import '../../Components/Styles/Bulma.css';
 import './Login.css';
 import { UserContext } from '../../contexts/userContext';
 
 const Login = () => {
+  
   const [username, setUsername] = useState('');   /* ignore all of these */ 
   const [password, setPassword] = useState('');  /* ignore all of these */ 
 

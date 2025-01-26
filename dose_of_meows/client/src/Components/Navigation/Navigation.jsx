@@ -1,16 +1,17 @@
-import React, {useState} from 'react';
-import '../Bulma.css'
-import '../Fonts.css'
+import React, {useState, useContext} from 'react';
+import '../Styles/Bulma.css'
+import '../Styles/Fonts.css'
 import './Navigation.css'
 import { NavLink } from 'react-router-dom';
-
-
+import { UserContext } from '../../contexts/userContext';
   
+
 const instagram = () => {
 window.open("https://www.instagram.com/daily_dose_of_meows/?hl=en","_blank");
 };
 
 const Navigation = () => {
+  const { currentUser } = useContext(UserContext)
     const [isModalActive, setModalActive] = useState(false)
 
     return (
@@ -85,10 +86,9 @@ const Navigation = () => {
                 <div className="navbar-end">
                     <div className="navbar-item">
                         <div className="buttons">
-
-                            <a className="button is-light custom-button" onClick={instagram}>
-                               Back to Instagram!
-                            </a>
+                            {currentUser?
+                            <a className="button is-primary custom-button" href={`/profile/${currentUser.id}`}>Profile</a>:
+                            <a className="button is-primary custom-button" href="/login">Login</a>}
                         </div>
                     </div>
                 </div>

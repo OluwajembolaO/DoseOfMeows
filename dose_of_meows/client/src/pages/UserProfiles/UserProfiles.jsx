@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import Navigation from '../../../Components/Navigation/Navigation';
+import Navigation from '../../Components/Navigation/Navigation';
 import './UserProfiles.css';
 
 
 
-const UserProfilles = () =>  { 
+const UserProfiles = () =>  { 
 
  
    /* in profileinformation profile secction we will add {username} + profile*/
@@ -24,4 +24,4 @@ const UserProfilles = () =>  {
     )  };
 
 
-export default UserProfilles;
+export default UserProfiles;

@@ -1,11 +1,19 @@
-import React from 'react';
+import React, { useContext} from 'react';
 import './GoogleButton.css';
+import { UserContext } from '../../contexts/userContext';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import { signInWithGooglePopup, createUserDocumentFromAuth } from '../FireBase/FireBaseConfig';
 const GoogleButton = () => {
+    const { login } = useContext(UserContext)
+    const navigate = useNavigate();
+
     const logGoogleUser = async () => {
         try {
             const { user } = await signInWithGooglePopup();
-            createUserDocumentFromAuth(user);
+            let x = await createUserDocumentFromAuth(user);
+            login(x)
+            navigate('/') // Navigate to the home page when the user logs in successfully.
+
         } catch (error) {
             console.error('Error signing in with Google', error);
         }

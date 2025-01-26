@@ -1,0 +1,192 @@
+
+
+
+.Homebody { 
+  color: rgb(255, 255, 255);
+  width: 99vw;
+  height: 100vh;
+
+
+}
+
+
+.cat2 { 
+  width: 10%;
+  height: 25%;
+  margin-top: -50%;
+
+
+}
+
+.post-container { 
+  width: 50%;
+  height: 75%;
+  margin: 0 auto; 
+  padding: 17%;
+  margin-right: 5%;
+  margin-top: 1%;
+  background-color: #f9f9f9;
+  border: 3px solid #000000;
+  border-radius: 100px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+
+    
+}
+
+.leftbutton {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px; 
+    height: 80px; 
+    background-color: #c3c3c3e8;
+    color: #000000;
+    border-radius: 50%; 
+    cursor: pointer;
+    font-size: 50px; 
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 50%; 
+    margin-left: -90%;
+}
+
+.leftbutton:hover {
+    background-color: #E2B4FC;
+}
+
+.rightbutton { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px; 
+    height: 80px; 
+    background-color: #c3c3c3e8;
+    color: #000000;
+    border-radius: 50%; 
+    cursor: pointer;
+    font-size: 50px; 
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: -82%; 
+    margin-left: 150%;
+
+
+}
+
+.rightbutton:hover {
+    background-color: #E2B4FC;
+
+}
+
+/* .captionbox { 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190%; 
+    height: 150px; 
+    background-color: #f2ddfe;
+    border: 3px solid black;
+    border-radius: 50px;
+    margin: -35%;
+    margin-top: 35%;
+    margin-left: -113px;
+
+
+}
+
+ 
+.test {
+    color: #000000;
+} */
+
+.userbox { 
+    background-color: rgb(218, 218, 218);
+    justify-content: center;
+    align-items: center;
+    width: 19%;
+    height: 450px;
+    margin: 0;
+    margin-top: -25%;
+    margin-left: 1%;
+    border-radius: 10%;
+    border: 3px solid rgb(101, 101, 101);
+    display: flex; 
+    color: white;
+ 
+
+}
+
+.Users { 
+    color: black;
+    font-weight: bold;
+    font-size: xxx-large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -130%;
+
+}
+
+.PostButton { 
+    background-color: rgb(137,102,157);
+    justify-content: center;
+    align-items: center;
+    width: 13%;
+    height: 6.5%;
+    margin: auto;
+    margin-right: 24%;
+    margin-top: -4%;
+    border-radius: 100px;
+ 
+
+
+}
+
+.PostButton:hover {
+    background-color: #4885ef;
+
+}
+
+.posttext { 
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size: xx-large;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 40%;
+    
+}
+
+.pluscircle { 
+    background-color: rgb(255, 255, 255);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 80%;
+    border-radius: 50%;
+    margin-top: -22.5%;
+    margin-left: 12%;
+}
+
+.PLUS  {
+  color:rgb(137,102,157);
+  font-size: xx-large;
+  text-align:center;
+  
+
+
+}
+  
+  .modal-content {
+    max-width: 100%;
+    margin: auto;
+    background: rgb(137,102,157);
+    padding: 1%;
+    border-radius: 5px;
+  }
+
